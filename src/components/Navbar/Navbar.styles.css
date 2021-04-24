@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  /* hides search bar */
+  /* position: fixed; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: black;
+  padding: 10px 0 10px 0;
+  width: 100%;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
+}
+
+.brand-title {
+  font-family: lobster;
+  font-size: 3rem;
+  margin-left: 1rem;
+  color: rgb(118, 22, 0);
+  letter-spacing: 0;
+  text-shadow: -1px 0 goldenrod, 0 1px goldenrod, 1px 0 goldenrod,
+    0 -1px goldenrod;
+  cursor: pointer;
+}
+
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+/* .navbar-links li {
+  list-style: none;
+  letter-spacing: 1px;
+} */
+
+.links {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  display: block;
+  list-style: none;
+  letter-spacing: 1px;
+  /* font-family: "lobster"; */
+  font-size: medium;
+  cursor: pointer;
+}
+
+.links:hover {
+  text-decoration: underline;
+}
+
+.scooter-img {
+  position: absolute;
+  /* height: 100x; */
+  width: 200px;
+  margin-left: 150px;
+  margin-top: 10px;
+}
