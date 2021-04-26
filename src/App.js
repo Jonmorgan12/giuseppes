@@ -5,6 +5,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar.component";
 // import Searchbar from "./components/Searchbar/Searchbar.component";
 import Home from "./components/Home/Home.component";
+import About from "./components/About/About.component";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       {/* <Searchbar /> */}
       <Home />
+      <About />
       <Switch>
         <Route path="/" />
         <Route path="/" />

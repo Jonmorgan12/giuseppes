@@ -1,0 +1,35 @@
+.about-container1 {
+  margin: 40px auto 20px;
+  /* padding: 20px; */
+  max-width: 950px;
+  background-color: rgb(251, 237, 213);
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 0 3px 15px rgba(85, 85, 85, 0.9);
+}
+
+.about-container2 {
+  max-width: 900px;
+  margin: 40px auto 20px;
+  text-align: center;
+  background-color: rgb(251, 237, 213);
+  border: 2px solid rgb(122, 103, 78);
+  padding: 10px;
+  /* padding-bottom: 10px; */
+  color: rgb(99, 65, 21);
+  font-family: italic normal normal georgia, palatino, "book antiqua",
+    "palatino linotype", serif;
+  line-height: 1.5rem;
+}
+
+.about-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  color: rgb(99, 65, 21);
+  font-family: italic normal normal georgia, palatino, "book antiqua",
+    "palatino linotype", serif;
+  letter-spacing: 0.1em;
+}

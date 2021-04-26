@@ -25,7 +25,7 @@ const Home = () => {
               <div className="button-menu">view menu</div>
             </div>
           </div>
-          <div id="est">-Est. 1988-</div>
+          <div id="est">- Est. 1988 -</div>
         </div>
       </div>
       {/* <div className="home-img-break"></div> */}
