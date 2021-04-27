@@ -1,6 +1,8 @@
 import React from "react";
 import "./About.styles.css";
 
+import Carousel from "../Carousel/Carousel.component";
+
 const About = () => {
   return (
     <>
@@ -40,6 +42,7 @@ const About = () => {
             </div>
           </em>
         </div>
+        <Carousel />
       </div>
     </>
   );
