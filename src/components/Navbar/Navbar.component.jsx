@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.styles.css";
 
-import scooter from "../../assets/scooter.png";
+import scooter from "../../assets/images/scooter.png";
 // import Searchbar from "../Searchbar/Searchbar.component";
 
 const NavBar = () => {

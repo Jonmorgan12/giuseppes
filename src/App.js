@@ -7,13 +7,15 @@ import Navbar from "./components/Navbar/Navbar.component";
 import Home from "./components/Home/Home.component";
 import About from "./components/About/About.component";
 
+import { GALLERY_IMAGES } from "./components/Gallery/Gallery.images";
+
 function App() {
   return (
     <Router>
       <Navbar />
       {/* <Searchbar /> */}
       <Home />
-      <About />
+      <About slides={GALLERY_IMAGES} />
       <Switch>
         <Route path="/" />
         <Route path="/" />

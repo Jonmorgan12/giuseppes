@@ -1,7 +1,8 @@
 import React from "react";
 import "./About.styles.css";
 
-import Carousel from "../Carousel/Carousel.component";
+import Gallery from "../Gallery/Gallery.component";
+import { GALLERY_IMAGES } from "../Gallery/Gallery.images";
 
 const About = () => {
   return (
@@ -42,7 +43,7 @@ const About = () => {
             </div>
           </em>
         </div>
-        <Carousel />
+        <Gallery slides={GALLERY_IMAGES} />
       </div>
     </>
   );
