@@ -100,3 +100,24 @@
   border: 2px solid rgb(99, 65, 21);
   border-radius: 10px;
 } */
+ 
+ 
+@media(max-width: 970px){
+  .smaller-images-container {
+  display: none;
+}
+}
+ 
+@media(max-width: 625px){
+  .image {
+    width: 400px;
+    height: 300px;
+  }
+}
+ 
+@media(max-width: 495px){
+  .image {
+    width: 300px;
+    height: 200px;
+  }
+}
