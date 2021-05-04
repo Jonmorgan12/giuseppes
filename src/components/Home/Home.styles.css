@@ -24,7 +24,7 @@
   letter-spacing: 1.4px;
   text-transform: none;
   color: #fff;
-  margin: 10px 0px 0px 10px;
+  margin: 10px 10px 0px 10px;
   background-color: black;
   box-shadow: 0 2px 15px rgba(85, 85, 85, 0.9);
 }
@@ -33,11 +33,13 @@
   padding: 0px 10px 0px 10px;
 }
 
-.greeting-container {
+.greeting-container { 
+  text-align: center;
   padding-top: 20vh;
 }
 
-.greeting {
+.greeting { 
+  padding: 1rem;
   position: relative;
   display: flex;
   justify-content: center;
@@ -157,3 +159,40 @@
   width: 100%;
   padding: 10px 0 10px 0;
 } */
+ 
+@media(max-width: 1480px){
+  .greeting {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+  }
+}
+@media(max-width: 1060px){
+  .greeting {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+  }
+}
+ 
+@media(max-width: 650px){
+  .greeting {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.6em;
+  }
+}
+ 
+@media(max-width: 530px){
+  .message {
+    max-width: 500px;
+    font-size: 11.5px;
+    font-weight: 300;
+  }
+}

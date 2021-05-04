@@ -64,3 +64,21 @@
   margin-left: 150px;
   margin-top: 10px;
 }
+
+@media (max-width: 950px){
+ 
+  .brand-title {
+    font-size: 2.4rem;
+  }
+  .scooter-img {
+    position: absolute;
+    /* height: 100x; */
+    width: 150px;
+    margin-left: 130px;
+    margin-top: 6px;
+  }
+  .links {
+    display: none;
+  }
+  }
+  
